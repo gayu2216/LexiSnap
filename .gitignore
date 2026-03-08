@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual env
+hack_ai_env/
+venv/
+.env
+
+# Model files (too large for GitHub; train locally via domain_updated.py)
+*.pt
+
+# Data
+*.csv
+nlp_dataset.csv
+combined_dataset.csv
+trends_data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+# Google Trends Real-Time Script Dependencies
+# SerpAPI (recommended) - get free key at https://serpapi.com
+google-search-results>=2.4.0
+
+# pytrends (fallback - may fail due to Google changes)
+pytrends>=4.9.0
+
+pandas>=1.0.0
+requests>=2.0

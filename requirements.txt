@@ -1,0 +1,9 @@
+# LexiSnap app dependencies
+streamlit>=1.28.0
+requests>=2.28.0
+yfinance>=0.2.65
+altair>=5.0.0
+google-search-results>=2.4.0
+transformers>=4.30.0
+torch
+accelerate
