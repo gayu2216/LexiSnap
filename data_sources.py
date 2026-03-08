@@ -6,6 +6,13 @@ import os
 from datetime import datetime, timedelta
 import requests
 
+# Load .env if present (for local dev)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 # --- Config (set via env vars: SERPAPI_API_KEY, NEWS_API_KEY) ---
 SERPAPI_KEY = os.environ.get("SERPAPI_API_KEY", "")
 NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "")
